@@ -8,10 +8,11 @@
 <body>   
         <?php
 
-$servername = "webdb.caur0oo07krb.ap-south-1.rds.amazonaws.com";
+$servername = "localhost";
 $username = "admin";
 $password = "webdb321";
 $dbname = "exp_info";
+
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
