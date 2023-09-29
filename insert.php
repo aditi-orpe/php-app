@@ -11,7 +11,7 @@
 $servername = "webdb.caur0oo07krb.ap-south-1.rds.amazonaws.com";
 $username = "admin";
 $password = "webdb321";
-$dbname = "webdb";
+$dbname = "exp_info";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
